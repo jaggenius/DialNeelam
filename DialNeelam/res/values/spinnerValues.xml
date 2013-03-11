@@ -1,0 +1,861 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="property_type">
+        <item>Select Property</item>
+        <item>Apartment</item>
+        <item>Individual house</item>
+        <item>Hostel</item>        
+        <item>Paying guest</item>
+        <item>Office Space</item>
+        <item>Shop/Outlets</item>
+        <item>Warehouse/Godown</item>
+        <item>IT park/SEZ</item>
+        <item>Land</item>
+        <item>Estate</item>
+        <item>Farm House</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="city">
+        <item>Select city</item>
+        <item>Chennai</item>
+        <item>Madurai</item>
+        <item>Trichy</item>
+    </string-array>
+    <string-array name="location_empty"><item>Select Location</item></string-array>
+    <string-array name="locations_chennai">
+        <item>Select Location</item>
+        <item>Abhiramapuram</item> 
+		<item>Abhiramapuram East</item>
+		<item>Abhirami Nagar</item>
+		<item>ABM Avenue</item>
+		<item>Acharapakkam</item>
+		<item>Acharappan Street</item>
+		<item>Adambakkam</item>
+		<item>Adayalampattu</item>
+		<item>Adhanur</item>
+		<item>Adyar</item>
+		<item>Adyar sastri Nagar</item>
+		<item>Agaram</item>
+		<item>Agraharam</item>
+		<item>AGS Colony</item>
+		<item>Akkarai</item>
+		<item>Alakandeswarar Nagar</item>
+		<item>Alandur</item>
+		<item>Alappakkam</item>
+		<item>ALS Nagar</item>
+		<item>Alwar Nagar</item>
+		<item>Alwar Thiru Nagar</item>
+		<item>Alwarpet</item>
+		<item>Alwarpettah Lane</item> 
+		<item>Ambal gajalakshmi nagar</item> 
+		<item>Ambal Nagar</item>
+		<item>Ambattur</item>
+		<item>Ambedkar Road</item> 
+		<item>Ambikapuram</item>
+		<item>Ameerjan Street</item>
+		<item>Aminjikarai</item>
+		<item>Anakaputhur</item>
+		<item>Anandagiri</item>
+		<item>Anantharaman</item>
+		<item>Angappa Naickan Street</item> 
+		<item>Anirudh</item> 
+		<item>Anna Avenue</item>
+		<item>Anna Garden</item>
+		<item>Anna Nagar</item>
+		<item>Anna Nagar East</item>
+		<item>Anna Nagar East Extension</item> 
+		<item>Anna Nagar West</item>
+		<item>Anna Nagar West Extension</item> 
+		<item>Anna Nedumpathai</item>
+		<item>Anna Pillai Street</item>
+		<item>Anna Road</item>
+		<item>Anna Salai</item>
+		<item>Annamalai Puram</item> 
+		<item>Annanagar Road</item>
+		<item>Annanur</item>
+		<item>Anuppambattu</item>
+		<item>Arakonam</item>
+		<item>Arani</item>
+		<item>Arcot Road</item>
+		<item>Arikamedu</item>
+		<item>Armenian Street</item>
+		<item>Arumbakkam</item>
+		<item>Arunachalam Road</item>
+		<item>Ashok Avenue</item>
+		<item>Ashok Colony</item>
+		<item>Ashok Nagar</item>
+		<item>Ashtalakshmi Nagar</item> 
+		<item>Attipattu</item>
+		<item>Attipattu Village</item> 
+		<item>Avadi</item>
+		<item>AVM Avenue</item>
+		<item>Avvai Nagar</item>
+		<item>Avvai Sanmuga Road</item> 
+		<item>Ayanambakkam</item>
+		<item>Ayanavaram</item> 
+		<item>Ayapakkam</item>
+		<item>Ayappan Thangal</item>
+		<item>Ayyapakkam</item>
+		<item>Ayyappa Nagar</item>
+		<item>Ayyavoo Nagar</item>
+		<item>Azhagiri Nagar</item>
+		<item>B B Road</item>
+		<item>Baba Nagar</item>
+		<item>Babynagar</item>
+		<item>Badashamakan</item>
+		<item>Bagirathi Ammal Street</item>
+		<item>Bagyam Nagar</item>
+		<item>Bahadurgarh</item>
+		<item>Bajanai Koil Street</item>
+		<item>Bakthavatchalam Colony</item>
+		<item>Balaiah Garden</item>
+		<item>Balaji Nagar</item>
+		<item>Balfour Road</item>
+		<item>Baraka Road</item>
+		<item>Barnaby Road</item>
+		<item>Barwa Nagar</item>
+		<item>Beach Road</item>
+		<item>Besant Gardens</item>
+		<item>Besant Nagar</item>
+		<item>Bharathi Nagar</item>
+		<item>Binny Road</item>
+		<item>Bishop Wallers Avenue East</item> 
+		<item>Bishops Garden</item>
+		<item>Boat Club</item>
+		<item>Bolivakkam</item>
+		<item>Boopathy Nagar</item>
+		<item>Brindhavan</item>
+		<item>Broadway</item>
+		<item>Bullion Market</item>
+		<item>Burkit Road</item>
+		<item>Camp Road</item>
+		<item>Canal Bank Road</item>
+		<item>Cantonment</item>
+		<item>Cart Track Road</item>
+		<item>Cathederal Road</item>
+		<item>Cathedral Garden Road</item>
+		<item>Cenotaph Road</item>
+		<item>Chamiers Road</item>
+		<item>Changalpet</item>
+		<item>Cheglepet</item>
+		<item>Chelliamman Colony</item> 
+		<item>Chembarambakkam</item>
+		<item>Chemmenchery</item>
+		<item>Chenchipeta</item>
+		<item>Chengalpattu</item>
+		<item>Chengalpet</item>
+		<item>Chennai Central</item>
+		<item>Chennai High Court</item>
+		<item>Chepauk</item>
+		<item>Chetpet</item>
+		<item>Chettimedu</item>
+		<item>Chettipedu</item>
+		<item>Chettipunniyam</item>
+		<item>Cheyyur</item>
+		<item>Chinmaya Nagar</item> 
+		<item>Chinnanolambur</item>
+		<item>Chinnapanichery</item>
+		<item>Chinnappa Nagar</item>
+		<item>Chintadripet</item>
+		<item>Chintamani</item>
+		<item>Chitlapakkam</item> 
+		<item>Chitrakulam</item>
+		<item>Choolai</item>
+		<item>Choolaimedu</item>
+		<item>Chromepet</item>
+		<item>CIT Colony</item>
+		<item>CIT Nagar</item>
+		<item>Coimbatore</item>
+		<item>College Road</item>
+		<item>Commander In Chief Road</item> 
+		<item>CP Ramaswamy Road</item>
+		<item>Cuddalore</item>
+		<item>Damodharamurthy Road</item>
+		<item>Defence Colony</item>
+		<item>Denkanikotta Road</item>
+		<item>Devaraj Nagar</item>
+		<item>Dhandeeswaram Main Road</item> 
+		<item>Dharga Road</item>
+		<item>Dharmapuri</item>
+		<item>Doveton</item>
+		<item>Durai Swamy Nagar</item> 
+		<item>Durgabai Deshmukh Road</item>		
+		<item>East Coast Road</item>
+		<item>East Thambaram</item>
+		<item>Egattur</item>
+		<item>Egmore</item>
+		<item>Ekkadutangal</item>
+		<item>Ekkattuthangal</item>
+		<item>Elcot Avenue</item>
+		<item>Eldams Road</item>
+		<item>Elephant Gate</item>
+		<item>Ellis Road</item>
+		<item>Elumalai Street</item>
+		<item>Ennore</item> 
+		<item>Ernavour</item>
+		<item>Erode</item>
+		<item>Erukkancheri</item> 
+		<item>Esplanade</item>
+		<item>Ethiraj Salai</item>
+		<item>EV Periyar Salai</item>
+		<item>Ezhil Nagar</item>
+		<item>Farukh Nagar</item>
+		<item>First Cross Street</item>
+		<item>First Cross Street</item>
+		<item>First Cross Street</item>
+		<item>Flower Bazaar</item>
+		<item>Flowers Road</item>
+		<item>Foreshore Estate</item>
+		<item>Fort St George</item>
+		<item>Gandhi Nagar</item>
+		<item>Ganesh Nagar</item>
+		<item>Ganga Nagar</item>
+		<item>Gayathri Nagar</item>
+		<item>George Town</item>
+		<item>Gerugambakkam</item>
+		<item>Gill Nagar</item>
+		<item>Girugambakkam</item>
+		<item>GKM Colony</item>
+		<item>GN Chetty Road</item>
+		<item>Gobichettipalayam</item>
+		<item>Gokul Nagar</item>
+		<item>Gokulapuram</item>
+		<item>Golden George Nagar</item> 
+		<item>Gopala Puram</item>
+		<item>Govarthanagiri</item>
+		<item>Govindapuram</item>
+		<item>Gowrivakkam</item>
+		<item>GP Road</item> 
+		<item>Greams Road</item>
+		<item>Greenways Road</item>
+		<item>GST Road</item>
+		<item>Guduvancheri</item>
+		<item>Guduvanchery</item>
+		<item>Guindy</item>
+		<item>Gummidipoondi</item> 
+		<item>Habibullah Road</item>
+		<item>Haddows Rd</item>
+		<item>Harbour Area</item>
+		<item>Harrington Road</item>
+		<item>Harris Road</item>
+		<item>Hasthinapuram</item>
+		<item>HIG Mugappair West</item>
+		<item>High Court</item>
+		<item>ias ips colony manapakkam</item> 
+		<item>ICF Colony</item>
+		<item>IIT</item>
+		<item>Indira Nagar</item> 
+		<item>Injambakkam</item>
+		<item>Inner Ring Road</item>
+		<item>Irumbuliyur</item>
+		<item>Irungattukottai</item>
+		<item>Iyappanthangal</item>
+		<item>Iyyapanagar Main Road</item>
+		<item>Iyyapanthangal</item>
+		<item>Jafferkhanpet</item>
+		<item>Jaladampettai</item>
+		<item>Jaladianpet</item>
+		<item>Jamalia</item>
+		<item>Jameen Pallavaram</item> 
+		<item>Jaswanth Nagar</item>
+		<item>Jawahar Nagar</item>
+		<item>Jaya Bharathi Nagar</item> 
+		<item>Jayachandran Nagar</item>
+		<item>Jayalaxmi Nagar</item>
+		<item>Jayanthi Nagar</item>
+		<item>Jayaram Nagar</item>
+		<item>Jeeva nagar</item>
+		<item>JT Durairaj Nagar</item>
+		<item>K K Nagar</item>
+		<item>K K Salai</item>
+		<item>K.H Road</item>
+		<item>Kadambattur</item>
+		<item>Kadapakkam</item>
+		<item>Kairampedu</item>
+		<item>Kaladipet</item>
+		<item>Kalakshetra Colony</item>
+		<item>Kalavakkam</item>
+		<item>Kallikuppam</item>
+		<item>Kallikuppam</item>
+		<item>Kalmandapam</item>
+		<item>Kalpakkam</item>
+		<item>Kamakotti Nagar</item>
+		<item>Kamala Street</item>
+		<item>Kamaraj Nagar</item>
+		<item>Kamarajapuram</item>
+		<item>Kambar Street</item>
+		<item>Kamdar Nagar</item>
+		<item>Kanagam</item>
+		<item>kanakapattu</item>
+		<item>Kanathur</item>
+		<item>Kancheepuram</item>
+		<item>Kandanchavadi</item>
+		<item>Kangayapuram</item>
+		<item>Kannabiran Koil Street</item>
+		<item>Kannadasan Nagar</item>
+		<item>Kannappa Nagar</item> 
+		<item>Karambakkam Porur</item>
+		<item>Karanodai</item>
+		<item>Karapakkam</item>
+		<item>Karasangal</item>
+		<item>Karpagam Gardens</item> 
+		<item>Karumbakkam</item>
+		<item>Kasimedu</item>
+		<item>Kaspapuram</item>
+		<item>Kaspapuram</item>
+		<item>Kasturba Nagar</item>
+		<item>Kasturiranga Road</item>
+		<item>Kathipara</item>
+		<item>kathirvedu</item>
+		<item>Kattankulathur</item>
+		<item>Kattupakkam</item>
+		<item>Kavanur</item>
+		<item>Kavarappetai</item>
+		<item>Kaveripakkam</item>
+		<item>kazhipattur</item>
+		<item>Keelkattalai</item>
+		<item>Kelambakkam</item>
+		<item>Kellys</item>
+		<item>Kilkattalai</item>
+		<item>Kilkodungalore</item>
+		<item>Kilpauk</item>
+		<item>Kilpauk Garden</item> 
+		<item>Kodaikanal</item>
+		<item>Kodambakkam</item>
+		<item>Kodungaiyur</item>
+		<item>Kolapakkam</item>
+		<item>Kolathur</item>
+		<item>Kondithope</item>
+		<item>Koonimedu</item>
+		<item>Kooram</item> 
+		<item>Kootteripattu</item>
+		<item>Korattur</item>
+		<item>Korukkupet</item>
+		<item>Kothari Nagar</item>
+		<item>Kottivakkam</item>
+		<item>Kottur</item>
+		<item>Kotturpuram</item>
+		<item>Kovalam</item>
+		<item>Kovar</item>
+		<item>Kovil Palayam Road</item> 
+		<item>Kovilambakkam</item>
+		<item>Kovilanchery</item>
+		<item>Kovur</item>
+		<item>Koyambedu</item>
+		<item>Krishna Nagar</item>
+		<item>Krishnapuram</item>
+		<item>Kubera Nagar</item>
+		<item>Kumananchavadi</item>
+		<item>Kumaran Nagar</item>
+		<item>Kumarasamy Nagar</item>
+		<item>Kumbakonam</item>
+		<item>Kundram</item>
+		<item>Kundratur</item>
+		<item>Kuppusamy Street</item> 
+		<item>Kuppusamy Street</item>
+		<item>Kutcherry Road</item>
+		<item>Kuvattur</item>
+		<item>L B Road</item>
+		<item>Lakshmipuram</item>
+		<item>Landons Road</item>
+		<item>Lattice Brigade Road</item>
+		<item>Little Mount</item>
+		<item>Lothkunta</item>
+		<item>Luz</item>
+		<item>M G R Nagar</item> 
+		<item>M K B Nagar</item>
+		<item>Madambakkam</item>
+		<item>madanakuppam</item>
+		<item>Madanandapuram</item>
+		<item>Madanandapuram</item>
+		<item>madevakkam</item>
+		<item>Madhavaram</item>
+		<item>Madhuranthagam</item>
+		<item>Madhuranthakam</item>
+		<item>Madhuravoyal-Chennai Express HighWay</item> 
+		<item>Madhuravyal</item>
+		<item>Madipakkam</item>
+		<item>madurai</item>
+		<item>Madurantakam</item>
+		<item>Maduravoyal</item>
+		<item>Maduravoyil</item>
+		<item>Maduvankarai</item>
+		<item>Mahabalipuram</item>
+		<item>Mahakavi Bharathiyar Nagar</item> 
+		<item>Mahalingapuram</item>
+		<item>Mahindra city</item>
+		<item>Mahindra world city</item>
+		<item>Malayambakkam</item>
+		<item>Mamallapuram</item>
+		<item>Mamandoor Village</item>
+		<item>Mambakkam</item>
+		<item>Mambalam</item>
+		<item>Manali</item>
+		<item>Manapakkam</item>
+		<item>Manavur</item>
+		<item>Mandaveli</item>
+		<item>Mandavelipakkam</item> 
+		<item>Mandevelli</item>
+		<item>Mangadu</item>
+		<item>Mangali Needhiman Nagar</item> 
+		<item>Manikkam</item>
+		<item>Manimangalam</item> 
+		<item>Manjakollai</item>
+		<item>Mankadu</item>
+		<item>Mannady</item>
+		<item>Mannivakkam</item>
+		<item>Mappedu</item>
+		<item>Maraimalai Nagar</item> 
+		<item>Marakanam</item>
+		<item>Marakanam Farmland</item> 
+		<item>Marredapally (West)</item>
+		<item>Maruthanallur</item>
+		<item>Maruthi Nagar</item>
+		<item>Mathananthapuram</item>
+		<item>Medavakkam</item>
+		<item>Meenambakkam</item>
+		<item>Mehta Nagar</item>
+		<item>Mel Ayanambakkam</item> 
+		<item>Melakottaiyur</item>
+		<item>Melamaiyur</item> 
+		<item>Melmaruvathur</item>
+		<item>MEPZ</item>
+		<item>Metha Nagar</item>
+		<item>Mettu Colony</item>
+		<item>Mettukuppam</item>
+		<item>Mettupalayam</item>
+		<item>Mevalurkuppam</item>
+		<item>Minjur</item>
+		<item>Mint</item>
+		<item>Mitnamalli</item>
+		<item>MMDA Colony</item>
+		<item>Mogalivakkam</item> 
+		<item>Mogappair</item>
+		<item>Mogappair East</item>
+		<item>Mogappair West</item>
+		<item>Mohan Kumaramangalam Street</item>
+		<item>Moogambigai Nagar</item>
+		<item>Moolakadai</item>
+		<item>Moore Market</item>
+		<item>Moovarasampet</item>
+		<item>Moovedar Nagar</item>
+		<item>Moovendar Nagar</item>
+		<item>Morai Village</item>
+		<item>Moratandi</item>
+		<item>Mosque Street</item>
+		<item>Mount Road</item>
+		<item>MRC Nagar</item>
+		<item>Mudhaliyaarkuppam</item>
+		<item>Mudichur</item>
+		<item>Mugalivakkam</item> 
+		<item>Mugappair</item>
+		<item>Mugiyur</item>
+		<item>Muttukadu</item>
+		<item>Mylapore</item>
+		<item>Nadukuppam ECR</item> 
+		<item>Nagar</item>
+		<item>Nallambakkam</item> 
+		<item>Nambakkam</item>
+		<item>Namdambakkam</item>
+		<item>Nandambakkam</item>
+		<item>Nandanam</item>
+		<item>Nandiambakkam</item>
+		<item>Nanganallur</item>
+		<item>Nanmangalam</item>
+		<item>Narasingapuram</item>
+		<item>Natesanar Nagar</item>
+		<item>Navalur</item>
+		<item>Nayapakkam</item>
+		<item>Nazarethpet</item>
+		<item>Near Mahindra World City</item> 
+		<item>Nedungundram</item>
+		<item>Neelangarai</item>
+		<item>Neelankarai</item>
+		<item>Nehru Nagar</item>
+		<item>Neikuppi</item>
+		<item>Nellikuppam</item>
+		<item>Nelson Manickam Road</item> 
+		<item>Nemilichery</item>
+		<item>Nemmelli</item>
+		<item>Nenmeli</item>
+		<item>Nerkundram</item>
+		<item>Nesapakkam</item>
+		<item>Nethaji Nagar</item>
+		<item>NGO Colony</item>
+		<item>Nilangarai</item>
+		<item>Nilavoor Main Road</item> 
+		<item>NM Road</item>
+		<item>Nolambur</item>
+		<item>Nookampalyam</item>
+		<item>Noombal</item>
+		<item>NSC Bose Road</item>
+		<item>NSK Nagar</item>
+		<item>NSR Road</item>
+		<item>Nungambakkam</item>
+		<item>OBR</item>
+		<item>Old Mahabalipuram Road</item> 
+		<item>Old Perungalthur</item>
+		<item>OMR road</item>
+		<item>Oragadam</item>
+		<item>Ormes Road</item> 
+		<item>Otteri</item>
+		<item>Ottiambakkam</item>
+		<item>Padapai Walajahbad Road</item> 
+		<item>Padappai</item>
+		<item>Padi</item>
+		<item>Padikuppam</item>
+		<item>Padmanabha nagar</item> 
+		<item>Padur</item>
+		<item>Palavakkam</item>
+		<item>Palavanthangal</item>
+		<item>Pallavan Nagar</item>
+		<item>Pallavaram</item>
+		<item>Pallavaram-Kundrathur Road</item> 
+		<item>Pallikaranai</item>
+		<item>Pammal</item>
+		<item>Pammal Balaji Nagar</item> 
+		<item>Pammal Main Road</item>
+		<item>Panagal Park</item>
+		<item>Panaiuyr</item>
+		<item>Panayur</item>
+		<item>Pandiyan Salai</item>
+		<item>Pantheon Road</item>
+		<item>Paraniputtur</item>
+		<item>Park Town</item>
+		<item>Parrys</item>
+		<item>Parthasarathy Puram</item> 
+		<item>Parvathi Nagar</item>
+		<item>Pattabiram</item>
+		<item>Pattaravakkam</item>
+		<item>Pattinapakam</item>
+		<item>Pattipulam</item>
+		<item>Pattukkotta</item>
+		<item>Pavunjur</item> 
+		<item>Pazhavanthangal</item> 
+		<item>Peerkankaranai</item>
+		<item>Penayur</item>
+		<item>Perambakkam</item>
+		<item>Perambur</item>
+		<item>Peravallore</item>
+		<item>Periya Panicheri</item>
+		<item>Periyamet</item>
+		<item>Periyapalayam</item>
+		<item>Periyar Nagar</item>
+		<item>Perumal Nagar</item>
+		<item>Perumatnallur</item>
+		<item>Perumattunallur</item>
+		<item>Perumbakkam</item>
+		<item>Perungalathur</item>
+		<item>Perungudi</item>
+		<item>Peters Road</item>
+		<item>PH Road</item>
+		<item>Podanoor</item>
+		<item>Poes Garden</item>
+		<item>Polachery</item>
+		<item>Polichalur</item>
+		<item>Ponammallee</item>
+		<item>Pondicherry</item>
+		<item>Pondy Bazaar</item>
+		<item>Ponmar</item>
+		<item>Ponnamalli</item>
+		<item>Ponneri</item>
+		<item>Ponniammanmedu</item> 
+		<item>Poompuhar Nagar</item>
+		<item>Poonamalle</item>
+		<item>Poonamalle High Road</item> 
+		<item>Poonamallee</item>
+		<item>Poonamallee Porur Road</item>
+		<item>Poonari Koot Road</item>
+		<item>Poonthottam</item>
+		<item>Porur</item>
+		<item>porur road</item>
+		<item>Potheri</item>
+		<item>Pothur Village</item>
+		<item>Pozhichalur</item>
+		<item>Prem Nagar</item>
+		<item>Puducherry</item>
+		<item>Pudupakkam</item>
+		<item>Pudupatinam</item>
+		<item>Pudupet</item>
+		<item>Pudur</item>
+		<item>Pulianthope</item>
+		<item>Pulipakkam</item>
+		<item>Puliyur</item>
+		<item>Puludivakkam</item>
+		<item>Purasaivakkam</item>
+		<item>Pursawalkam</item>
+		<item>Puthagaram</item>
+		<item>Puthagaram Village</item> 
+		<item>Puzhal</item>
+		<item>Puzhuthivakkam</item> 
+		<item>R A Puram</item>
+		<item>R R Colony</item>
+		<item>R T Nagar</item>
+		<item>R K Nagar</item>
+		<item>R V Nagar</item>
+		<item>Radhakrishan Nagar</item> 
+		<item>Radhakrishnan Salai</item>
+		<item>Raj Bhavan</item>
+		<item>Raja Annamalai Puram</item> 
+		<item>Raja Nagar</item>
+		<item>Rajaji Nagar</item> 
+		<item>Rajaji Salai</item> 
+		<item>Rajakilpakkam</item>
+		<item>Rajalakshmi Nagar</item>
+		<item>Rajeshwari Nagar</item>
+		<item>Rajeswari Avenue</item>
+		<item>Ram Nagar</item>
+		<item>Ramamurthy Nagar</item> 
+		<item>Ramancheri</item>
+		<item>Ramapuram</item>
+		<item>Ramaswamy Nagar</item>
+		<item>Ramavaram</item>
+		<item>Ramya Nagar</item>
+		<item>Ranganathan Street</item>
+		<item>Rangarajapuarm</item>
+		<item>Ranipet</item>
+		<item>Rathinapuri</item>
+		<item>Ratnamangalam</item>
+		<item>Red Hills</item>
+		<item>Revathi Puram</item>
+		<item>Rice Mill Road</item>
+		<item>RK Mutt Road</item>
+		<item>Rose Nagar</item>
+		<item>Royapettah</item>
+		<item>Royappa Nagar</item>
+		<item>Royapuram</item>
+		<item>S R P Colony</item>
+		<item>Sadasivam Nagar</item>
+		<item>Sadras</item>
+		<item>Saidapet</item>
+		<item>Saligramam</item>
+		<item>Samdaria Colony</item>
+		<item>Santhome</item>
+		<item>Santhoshpuram</item>
+		<item>Saraswathi Nagar</item>
+		<item>Sardar Patel Road</item>
+		<item>Sarvambakkam Village</item>
+		<item>Sasthiri Road</item>
+		<item>Satyanarayana</item>
+		<item>Saveetha Nagar</item>
+		<item>Seethama colony</item>
+		<item>Seetharam Nagar</item>
+		<item>Selaiyur</item>
+		<item>Selavoyal</item>
+		<item>Selvam Nagar</item>
+		<item>Sembakkam</item>
+		<item>Sembiyam</item>
+		<item>Semencherry</item>
+		<item>Semmencherry</item>
+		<item>Senneerkuppam</item>
+		<item>Senthil Nagar</item>
+		<item>Sevapet</item>
+		<item>Seven Wells</item>
+		<item>Seyyur</item>
+		<item>shankar nagar</item> 
+		<item>Shankarapuram</item> 
+		<item>Shanthi Colony</item>
+		<item>Shanthi Nagar</item>
+		<item>Shanthiniketan Colony</item> 
+		<item>Shasthri Nagar</item>
+		<item>Shenoy Nagar</item>
+		<item>Sholavaram</item>
+		<item>Sholinagar</item>
+		<item>sholinganallur</item>
+		<item>Sholingur</item>
+		<item>Shri Raghavendra Nagar</item> 
+		<item>Sidco Estate Ambattur</item>
+		<item>Singaperumal Koil</item>
+		<item>Siruganoor</item> 
+		<item>Siruseri</item>
+		<item>Sithalapakkam</item> 
+		<item>Siva Prakasam Street</item>
+		<item>Sivagami Nagar</item>
+		<item>Sivaganga Road</item>
+		<item>Somu Nagar</item>
+		<item>Soundarapandivan Salai</item> 
+		<item>South Avenue Road</item>
+		<item>South pakkam</item>
+		<item>South Usman Road</item>
+		<item>Sowcarpet</item>
+		<item>Sowmya Nagar</item>
+		<item>Sowrashtra Nagar</item>
+		<item>Sowripalayam</item>
+		<item>Sreekariyam</item>
+		<item>Sri Balaji Nagar</item>
+		<item>Sri Devi Nagar</item>
+		<item>Sri Krishna Nagar</item>
+		<item>Sri nagar colony</item>
+		<item>Sri Sai Nagar</item>
+		<item>Srinivasa Nagar</item>
+		<item>Sriperumbudur</item>
+		<item>Sriprembattoor</item>
+		<item>Sriram Nagar</item>
+		<item>St Marys Rd</item>
+		<item>St Thomas Mount</item>
+		<item>State Highway 54</item>
+		<item>Stranhans Road</item>
+		<item>Subramaniam Colony</item>
+		<item>Sudharsan Nagar</item>
+		<item>Sulerikadu</item> 
+		<item>Sundarapuram</item>
+		<item>Sunkuvarchatram</item>
+		<item>Sunshine Nagar</item> 
+		<item>Surakuppam</item>
+		<item>Surapet</item>
+		<item>Sylvan Lodge Colony</item> 
+		<item>T Nagar</item>
+		<item>T T K Road</item>
+		<item>Tambaram</item>
+		<item>Tambaram East</item>
+		<item>Tambaram Sanatorium</item> 
+		<item>Tambaram West</item>
+		<item>Tansi Nagar</item>
+		<item>Taramani</item>
+		<item>Teachers Colony</item>
+		<item>Telephone Nagar</item>
+		<item>Teynampet</item>
+		<item>Thadagam Road</item>
+		<item>Thaiyur</item>
+		<item>Thakkolam</item>
+		<item>Thalambur</item>
+		<item>Thandalam</item>
+		<item>Thandarai</item>
+		<item>Thanikachalam Nagar</item> 
+		<item>Tharamani</item>
+		<item>Thavalakkam</item>
+		<item>Thazambur</item>
+		<item>Thazhambur</item>
+		<item>Thilaigang Nagar</item>
+		<item>Thirukural</item>
+		<item>Thirumalai Nagar</item> 
+		<item>Thirumallaivoyal</item>
+		<item>Thirumalzhisai</item>
+		<item>Thirumangalam</item>
+		<item>Thirumudivakkam</item>
+		<item>Thirumullaivoyal</item>
+		<item>Thiruneermalai</item> 
+		<item>Thirunindravur</item>
+		<item>Thiruninrvur</item>
+		<item>Thiruporur</item>
+		<item>Thiruvallur</item>
+		<item>Thiruvallur Main Road</item> 
+		<item>Thiruvalluvar Nagar</item>
+		<item>Thiruvanmiyur</item>
+		<item>Thiruvannamalai</item>
+		<item>Thiruvannamaly</item>
+		<item>Thiruvelangadu</item>
+		<item>Thiruvengadam</item>
+		<item>Thiruverkadu</item>
+		<item>Thiruvika Nagar</item>
+		<item>Thiruvottiyur</item>
+		<item>Thondairpet</item>
+		<item>Thoraipakkam</item>
+		<item>Thousand Lights</item>
+		<item>Thrininrayur</item>
+		<item>Thriveni Nagar</item>
+		<item>Thuraipakkam</item>
+		<item>Thyagaraya Nagar</item>
+		<item>Tindivanam</item>
+		<item>Tirumullaivayal</item> 
+		<item>Tirunelveli</item>
+		<item>Tirupathi</item>
+		<item>Tirupporur</item>
+		<item>Tirusulam</item>
+		<item>Tiruttani</item>
+		<item>Tiruvallur</item>
+		<item>Tiruvallur Nagar</item>
+		<item>Tiruvanmiyur</item>
+		<item>Tondiarpet</item>
+		<item>Trichy</item>
+		<item>Triplicane</item> 
+		<item>Turnbulls Road</item>
+		<item>Ulavoor</item>
+		<item>Ullagaram</item>
+		<item>Umapathy</item>
+		<item>Unmai Nagar</item>
+		<item>Urapakkam West</item>
+		<item>Urappakkam</item>
+		<item>Uthandi</item>
+		<item>Uthiramerur</item>
+		<item>Vadampurambakkam</item> 
+		<item>Vadapalani</item>
+		<item>Vaidayanath Street</item>
+		<item>Vaidyanathapuram</item>
+		<item>Vaishnavi Nagar</item>
+		<item>Vaiyoor</item>
+		<item>Valasaravakkam</item> 
+		<item>Vallam</item>
+		<item>Valluvar Kottam</item> 
+		<item>Valmiki Nagar</item>
+		<item>Valmiki Road</item>
+		<item>Vanagaram</item>
+		<item>Vandaloor</item>
+		<item>Vandalur</item>
+		<item>Vandavasi</item>
+		<item>Vannandurai</item>
+		<item>vannandurai adyar</item>
+		<item>Vannarapet Road</item>
+		<item>Vanuvampet</item>
+		<item>Varadharajapuram</item>
+		<item>Vedanthangal</item>
+		<item>Veeraragalu nagar</item>
+		<item>Velachery</item>
+		<item>Velachery Main Road</item> 
+		<item>Velappanchavdi</item> 
+		<item>Velippalayam</item>
+		<item>Vellala Street</item>
+		<item>Vellanur</item>
+		<item>Vembakkam</item>
+		<item>Vengadamangalam</item> 
+		<item>Vengaivasal</item>
+		<item>Vengambakkam</item>
+		<item>Venkatamangalam</item>
+		<item>Venkatesan Street</item>
+		<item>Venugopalapuram</item>
+		<item>Venus Colony</item>
+		<item>Vepampattu</item>
+		<item>Vepery</item>
+		<item>Veruthampattu</item> 
+		<item>Vetri Nagar</item>
+		<item>Vettri Nagar</item>
+		<item>Vettuvankeni</item>
+		<item>VGP Pon Nagar</item>
+		<item>Viduthalai Nagar</item>
+		<item>Vijaya Nagar</item>
+		<item>Vijayaraja Nagar</item>
+		<item>Vijayawada</item>
+		<item>Vilankadupakkam</item>
+		<item>Villayambakkam</item>
+		<item>Villivakkam</item>
+		<item>Villiyanallur</item>
+		<item>Villupuram</item>
+		<item>vinayagapuram</item>
+		<item>Virugambakkam</item>
+		<item>Visalatchipuram</item>
+		<item>VP colony</item>
+		<item>Vyasarpadi</item>
+		<item>Walajabad</item>
+		<item>Walajabath</item> 
+		<item>Walajpat</item>
+		<item>Walatax Road</item>
+		<item>Wallajah Road</item>
+		<item>Wannarpet</item>
+		<item>Washermanpet</item>
+		<item>West Mambalam</item>
+		<item>West Mugappair</item>
+		<item>West Road</item>
+		<item>Wimco Nagar</item>
+		<item>Yelagiri</item>
+		<item>Zamin Pallavaram</item> 
+    </string-array>
+    <string-array name="navigationList">
+        <item>Search Property</item>
+        <item>List Propery</item>
+        <item>Bookmarked</item>
+        <item>Listed</item>
+        <item>Post Requirment</item>
+        <item>Requirements Posted</item>
+        <item>Profile</item>
+    </string-array>
+</resources>

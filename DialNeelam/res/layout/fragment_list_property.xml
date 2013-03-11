@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="12dp"
+    android:layout_marginLeft="@dimen/layout_margin_left"
+    android:layout_marginRight="@dimen/layout_margin_right"
+    android:layout_marginTop="12dp"
+    android:gravity="center_vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" >
+
+        <Spinner
+            android:id="@+id/spinner_property_type"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:entries="@array/property_type" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup_list_property_sell_rent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/radio_list_property_sell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/sell" />
+
+            <RadioButton
+                android:id="@+id/radio_list_property_rent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rent" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_marginTop="@dimen/home_margin_top_bottom" >
+
+        <Spinner
+            android:id="@+id/spinner_list_property_city"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:entries="@array/city" />
+
+        <Spinner
+            android:id="@+id/spinner_list_property_location"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editText_list_property_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_marginTop="@dimen/home_margin_top_bottom"
+        android:ems="10"
+        android:hint="@string/enterAddressOrLandmark"
+        android:inputType="textPostalAddress" >
+
+       
+    </EditText>
+
+    <Button
+        android:id="@+id/button_list_property_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/editText_list_property_address"
+        android:layout_marginTop="@dimen/home_margin_top_bottom"
+        android:background="@drawable/buttons"
+        android:text="@string/list" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/button_list_property_list"
+        android:background="@color/Aquamarine" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignBottom="@+id/button_list_property_list"
+        android:layout_alignParentLeft="true"
+        android:background="@color/Aquamarine" />
+
+</RelativeLayout>

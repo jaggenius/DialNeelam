@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="12dp"
+    android:layout_marginLeft="@dimen/layout_margin_left"
+    android:layout_marginRight="@dimen/layout_margin_right"
+    android:layout_marginTop="12dp"
+    android:gravity="center_vertical"  >
+   
+
+    <EditText
+        android:id="@+id/editText_fragment_profile_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:hint="@string/enterYourName"
+        android:inputType="textPersonName" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText_fragment_profile_phoneNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/editText_fragment_profile_name"
+        android:layout_marginTop="@dimen/home_margin_top_bottom"
+        android:ems="10"
+        android:hint="@string/enterPhoneNumber"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/editText_fragment_profile_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/editText_fragment_profile_phoneNo"
+        android:layout_marginTop="@dimen/home_margin_top_bottom"
+        android:ems="10"
+        android:hint="@string/enterYourEmail"
+        android:inputType="textEmailAddress" />
+
+    <Button
+        android:id="@+id/button_fragment_profile_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/editText_fragment_profile_email"
+        android:layout_marginTop="@dimen/home_margin_top_bottom"
+        android:background="@drawable/buttons"
+        android:text="@string/save" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/button_fragment_profile_save"
+        android:background="@color/Aquamarine" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_alignBottom="@+id/button_fragment_profile_save"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/Aquamarine" />
+
+</RelativeLayout>
